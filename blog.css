@@ -1,0 +1,112 @@
+#scrollToTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header nav {
+    padding: 1em !important;
+    transition: 0.5s;
+}
+
+nav.fixd {
+    background-color: #284E62;
+}
+
+header nav li a {
+    color: white !important;
+}
+
+section {
+    padding: 60px 0px;
+}
+
+/* sec1 */
+
+.sec1 {
+    padding: 150px 0px 80px 0px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #1E4356;
+}
+
+.sec1 a {
+    text-decoration: none;
+    color: #68A4C4;
+}
+
+/* sec2 */
+
+.sec2 .card {
+    position: relative;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+} 
+
+.sec2 .img2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.sec2 time {
+    font-size: 14px;
+    position: absolute;
+    top: 460px;
+    left: 70px;
+    opacity: 0.5;
+}
+
+.sec2 p {
+    color: #1E4356;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.sec2 p:hover {
+    color: #68A4C4;
+}
+
+.sec2 h5 {
+    font-size: 16px;
+    opacity: 0.5;
+}
+
+.sec2 ul {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.sec2 ul img {
+    width: 16px;
+    height: 16px;
+}
+
+.sec2 a {
+    text-decoration: none;
+    color: #68A4C4;
+    align-items: center;
+}
+
+.sec2 li {
+    margin: 0px 5px;
+    list-style: none;
+    border: 1px solid #68A4C4;
+    width: 36px;
+    height: 36px;
+    padding: 3px;
+    border-radius: 50%;
+}
+
+.sec2 .ket {
+    border: 0px;
+}

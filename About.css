@@ -1,0 +1,392 @@
+#scrollToTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header nav {
+    padding: 1em !important;
+    transition: 0.5s;
+}
+
+nav.fixd {
+    background-color: #284E62;
+}
+
+header nav li a {
+    color: white !important;
+}
+
+section {
+    padding: 60px 0px;
+
+}
+
+/* sec1 */
+
+.sec1 {
+    padding: 150px 0px 80px 0px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #1E4356;
+}
+
+.sec1 a {
+    text-decoration: none;
+    color: #68A4C4;
+}
+
+/* sec2 */
+
+.sec2 iframe {
+    width: 636px;
+    height: 477px;
+}
+
+/* sec3 */
+
+.sec3 {
+    background-color: #F4F8FB;
+    padding: 60px 0px;
+}
+
+.sec3 span {
+    font-size: 60px;
+    display: block;
+}
+
+/* sec4 */
+
+.sec4 img {
+    width: 116px;
+    transition: 0.5s;
+    transition: .5s;
+}
+
+.sec4 img:hover {
+    transform: scale(1.1);
+}
+
+/* sec5 */
+
+.sec5 label {
+    position: relative;
+}
+
+.sec5 h5 {
+    text-align: center;
+    color: #1E4356;
+    font-size: 32px;
+    position: relative;
+}
+
+.sec5 h5::after {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    top: 60px;
+    left: 615px;
+    background-color: #68A4C4;
+}
+
+.sec5 h5::before {
+    content: '';
+    position: absolute;
+    width: 160px;
+    height: 1px;
+    top: 61px;
+    left: 565px;
+    background-color: #000000;
+}
+
+.sec5 p {
+    text-align: center;
+}
+
+.htmlbar::after {
+    content: '';
+    position: absolute;
+    width: 636px;
+    height: 10px;
+    background-color: #68A4C4;
+    left: 0px;
+    top: 30px;
+}
+
+.phpbar::after {
+    content: '';
+    position: absolute;
+    width: 636px;
+    height: 10px;
+    background-color: #dfe2e4;
+    left: 0px;
+    top: 30px;
+}
+
+.phpbar::before {
+    content: '';
+    position: absolute;
+    width: 508.8px;
+    height: 10px;
+    z-index: 2;
+    background-color: #68A4C4;
+    left: 0px;
+    top: 30px;
+}
+
+.cssbar::after {
+    content: '';
+    position: absolute;
+    width: 636px;
+    height: 10px;
+    background-color: #dfe2e4;
+    left: 0px;
+    top: 30px;
+}
+
+.cssbar::before {
+    content: '';
+    position: absolute;
+    width: 572.39px;
+    height: 10px;
+    z-index: 2;
+    background-color: #68A4C4;
+    left: 0px;
+    top: 30px;
+}
+
+.WPbar::after {
+    content: '';
+    position: absolute;
+    width: 636px;
+    height: 10px;
+    background-color: #dfe2e4;
+    left: 0px;
+    top: 30px;
+}
+
+.WPbar::before {
+    content: '';
+    position: absolute;
+    width: 572.39px;
+    height: 10px;
+    z-index: 2;
+    background-color: #68A4C4;
+    left: 0px;
+    top: 30px;
+}
+
+.JSbar::after {
+    content: '';
+    position: absolute;
+    width: 636px;
+    height: 10px;
+    background-color: #dfe2e4;
+    left: 0px;
+    top: 30px;
+}
+
+.JSbar::before {
+    content: '';
+    position: absolute;
+    width: 477px;
+    height: 10px;
+    z-index: 2;
+    background-color: #68A4C4;
+    left: 0px;
+    top: 30px;
+}
+
+.phbar::after {
+    content: '';
+    position: absolute;
+    width: 636px;
+    height: 10px;
+    background-color: #dfe2e4;
+    left: 0px;
+    top: 30px;
+}
+
+.phbar::before {
+    content: '';
+    position: absolute;
+    width: 349.8px;
+    height: 10px;
+    z-index: 2;
+    background-color: #68A4C4;
+    left: 0px;
+    top: 30px;
+}
+
+.htmlLabel {
+    margin-left: 550px;
+}
+
+.phpLabel {
+    margin-left: 560px;
+}
+
+.cssLabel {
+    margin-left: 565px;
+}
+
+.WBLabel {
+    margin-left: 475px;
+}
+
+.JSLabel {
+    margin-left: 522px;
+}
+
+.phLabel {
+    margin-left: 515px;
+}
+
+/* sec6 */
+
+.sec6 h2 {
+    color: #1E4356;
+    text-align: center;
+    position: relative;
+}
+
+.sec6 h2::after {
+    content: '';
+    position: absolute;
+    background-color: #68A4C4;
+    width: 61px;
+    height: 3px;
+    top: 60px;
+    left: 615px;
+}
+
+.sec6 h2::before {
+    content: '';
+    position: absolute;
+    width: 160px;
+    height: 1px;
+    top: 61px;
+    left: 565px;
+    background-color: #000000;
+}
+
+.sec6 .carousel {
+    margin-top: 30px;
+}
+
+.sec6 .carousel .carousel-item1 .d-block {
+    border-radius: 50% !important;
+    width: 120px !important;
+    margin-left: 588px !important;
+}
+
+.sec6 .carousel .carousel-item1 h3 {
+    color: #1E4356;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.sec6 .carousel .carousel-item1 h4 {
+    margin-bottom: 14px;
+    font-size: 14px;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.sec6 .carousel .carousel-item1 img {
+    width: 120px;
+    margin-left: 588px;
+}
+
+.sec6 .carousel .carousel-item1 p {
+    text-align: center;
+}
+
+/* footer */
+
+footer {
+    background-color: #1E4356;
+    color: white;
+}
+
+footer .col {
+    text-align: center;
+    background-color: #3f6375;
+    padding: 50px 0px;
+}
+
+footer .row1 {
+    padding: 50px;
+}
+
+footer .col input[type='text'] {
+    width: 655.33px;
+    height: 40px;
+    padding-left: 10px;
+    color: white;
+    background-color: #284E62;
+    border: #48697a 2px solid;
+    transition: 0.5;
+    outline: none;
+    border-radius: 20px;
+}
+
+footer .col input[type='button'] {
+    height: 40px;
+    width: 110px;
+    border: none;
+    border-radius: 20px;
+    position: absolute;
+    padding: 0px 20px;
+    background-color: rgb(26, 143, 143);
+    color: white;
+    left: 1170px;
+}
+
+footer .col-2 a {
+    color: rgb(189, 184, 184);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+footer .col-2 a:hover {
+    color: rgb(87, 87, 189);
+}
+
+footer svg {
+    padding: 10px;
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 5px;
+    transition: 0.3s;
+}
+
+footer svg:hover {
+    border: 1px solid rgb(38, 96, 132);
+}
+
+.errordiv {
+    margin-top: 40px;
+    margin-left: 460px;
+    width: 1000px;
+    background-color: red;
+    padding: 20px;
+    display: none;
+    text-align: left;
+}
+
+.errordiv.active {
+    display: block;
+}

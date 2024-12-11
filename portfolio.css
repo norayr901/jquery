@@ -1,0 +1,151 @@
+#scrollToTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header nav {
+    padding: 1em !important;
+    transition: 0.5s;
+}
+
+nav.fixd {
+    background-color: #284E62;
+}
+
+header nav li a {
+    color: white !important;
+}
+
+section {
+    padding: 60px 0px;
+}
+
+/* sec1 */
+
+.sec1 {
+    padding: 150px 0px 80px 0px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #1E4356;
+}
+
+.sec1 a {
+    text-decoration: none;
+    color: #68A4C4;
+}
+
+/* sec2 */
+
+.sec2 ul {
+    color: #555555;
+    margin: 0px 10px 5px;
+    font-size: 18px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.sec2 li {
+    margin: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.sec2 li:hover {
+    color: #68A4C4;
+}
+
+.sec2 img {
+    width: 416px;
+    height: 312px;
+    transition: ease-in-out 0.3s;
+    z-index: 1;
+}
+
+/* footer */
+
+footer {
+    background-color: #1E4356;
+    color: white;
+}
+
+footer .col {
+    text-align: center;
+    background-color: #3f6375;
+    padding: 50px 0px;
+}
+
+footer .row1 {
+    padding: 50px;
+}
+
+footer .col input[type='text'] {
+    width: 655.33px;
+    height: 40px;
+    padding-left: 10px;
+    color: white;
+    background-color: #284E62;
+    border: #48697a 2px solid;
+    transition: 0.5;
+    outline: none;
+    border-radius: 20px;
+}
+
+footer .col input[type='button'] {
+    height: 40px;
+    width: 110px;
+    border: none;
+    border-radius: 20px;
+    position: absolute;
+    padding: 0px 20px;
+    background-color: rgb(26, 143, 143);
+    color: white;
+    left: 1170px;
+}
+
+footer .col-2 a {
+    color: rgb(189, 184, 184);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+footer .col-2 a:hover {
+    color: rgb(87, 87, 189);
+}
+
+footer svg {
+    padding: 10px;
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 5px;
+    transition: 0.3s;
+}
+
+footer svg:hover {
+    border: 1px solid rgb(38, 96, 132);
+}
+
+.errordiv {
+    margin-top: 40px;
+    margin-left: 460px;
+    width: 1000px;
+    background-color: red;
+    padding: 20px;
+    display: none;
+    text-align: left;
+}
+
+.errordiv.active {
+    display: block;
+}

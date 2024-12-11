@@ -1,0 +1,397 @@
+#scrollToTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header nav {
+    padding: 1em !important;
+    transition: 0.5s;
+}
+
+nav.fixd {
+    background-color: #284E62;
+}
+
+header nav li a {
+    color: white !important;
+}
+
+section {
+    padding: 60px 0px;
+}
+
+/* sec1 */
+
+.sec1 {
+    padding: 150px 0px 80px 0px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #1E4356;
+}
+
+.sec1 a {
+    text-decoration: none;
+    color: #68A4C4;
+}
+
+/* sec2 */
+
+.sec2 .card {
+    line-height: 24px;
+    font-size: 14px;
+    padding: 28px;
+    margin: 10px;
+    height: 350px;
+    text-align: center;
+    transition: .5s;
+    box-shadow: 0px 5px 90px 0px rgba(0, 0, 0, 0.1);
+}
+
+.card1:hover {
+    border: 1px solid aqua;
+}
+
+.card2:hover {
+    border: 1px solid rgb(255, 174, 0);
+}
+
+.card3:hover {
+    border: 1px solid rgb(0, 255, 128);
+}
+
+.card4:hover {
+    border: 1px solid rgb(230, 41, 28);
+}
+
+.card-title {
+    font-size: 22px;
+}
+
+.card img {
+    width: 84px;
+    height: 84px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.card1 img:hover {
+    background-color: aqua;
+}
+
+.card2 img:hover {
+    background-color: rgb(255, 174, 0);
+}
+
+.card3 img:hover {
+    background-color: rgb(0, 255, 128);
+}
+
+.card4 img:hover {
+    background-color: rgb(230, 41, 28);
+}
+
+/* sec3 */
+
+.sec3 img {
+    border-radius: 10px;
+    transition: 0.8s;
+    width: 100%;
+    margin: 0;
+    margin: 10px;
+}
+
+.sec3 img:hover {
+    transform: scale(1.2);
+}
+
+.coldiv1 {
+    position: absolute;
+    z-index: 2;
+    padding: 8px;
+    left: 338px;
+    width: 596px;
+    top: 1213px;
+    height: 159px;
+    border-radius: 10px;
+    text-align: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+}
+
+.coldiv1 p {
+    font-size: 14px;
+}
+
+.coldiv1 h3 {
+    color: #1e4356;
+    transition: ease-in-out .3s;
+    padding: 10px 0px;
+    font-size: 22px;
+}
+
+.coldiv1 h3:hover {
+    color: #68a4c4;
+}
+
+.coldiv2 {
+    position: absolute;
+    z-index: 2;
+    padding: 8px;
+    left: 993px;
+    top: 1212px;
+    width: 596px;
+    height: 159px;
+    border-radius: 10px;
+    text-align: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+}
+
+.coldiv2 p {
+    font-size: 14px;
+}
+
+.coldiv2 h3 {
+    color: #1e4356;
+    transition: ease-in-out .3s;
+    padding: 10px 0px;
+    font-size: 22px;
+}
+
+.coldiv2 h3:hover {
+    color: #68a4c4;
+}
+
+.coldiv3 {
+    position: absolute;
+    z-index: 2;
+    padding: 8px;
+    left: 993px;
+    top: 1706px;
+    width: 596px;
+    height: 159px;
+    border-radius: 10px;
+    text-align: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+}
+
+.coldiv3 p {
+    font-size: 14px;
+}
+
+.coldiv3 h3 {
+    color: #1e4356;
+    transition: ease-in-out .3s;
+    padding: 10px 0px;
+    font-size: 22px;
+}
+
+.coldiv3 h3:hover {
+    color: #68a4c4;
+}
+
+.coldiv4 {
+    position: absolute;
+    z-index: 2;
+    padding: 8px;
+    left: 338px;
+    top: 1706px;
+    width: 596px;
+    height: 159px;
+    border-radius: 10px;
+    text-align: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+}
+
+.coldiv4 p {
+    font-size: 14px;
+}
+
+.coldiv4 h3 {
+    color: #1e4356;
+    transition: ease-in-out .3s;
+    padding: 10px 0px;
+    font-size: 22px;
+}
+
+.coldiv4 h3:hover {
+    color: #68a4c4;
+}
+
+/* sec4 */
+
+.sec4 h2 {
+    text-align: center;
+    color: #1e4356;
+    position: relative;
+}
+
+.sec4 h2::after {
+    content: '';
+    position: absolute;
+    width: 61px;
+    background-color: #68A4C4;
+    height: 3px;
+    top: 59px;
+    left: 615px;
+}
+
+.sec4 h2::before {
+    content: '';
+    position: absolute;
+    width: 160px;
+    background-color: #333333;
+    height: 1px;
+    top: 60px;
+    left: 565px;
+}
+
+.sec4 p {
+    text-align: center;
+}
+
+.sec4 .box-shadow {
+    position: relative;
+}
+
+.sec4 .box-shadow .col {
+    height: 544px;
+    margin-top: 28px;
+    position: relative;
+    box-shadow: 0 3px 20px -2px rgba(0, 0, 0, 0.1);
+    padding: 60px 40px;
+}
+
+.sec4 h3 {
+    color: #1E4356;
+    font-size: 20px;
+    margin: 0px 0px 15px;
+}
+
+.sec4 h4 {
+    font-size: 48px;
+    font-family: sans-serif;
+    color: #68A4C4;
+}
+
+.sec4 span {
+    position: absolute;
+    top: 123px;
+    left: 130px;
+    font-size: 18px;
+    opacity: 0.4;
+}
+
+.sec4 ul {
+    padding: 20px 0px;
+    margin: 0px 0px 16px;
+}
+
+.sec4 ul li {
+    line-height: 38px;
+}
+
+.sec4 button {
+    margin-left: 110px;
+    padding: 8px 35px 10px;
+}
+
+.bluediv {
+    position: relative;
+    background-color: #68A4C4;
+    padding: 60px 40px;
+    height: 599px;
+}
+
+.bluediv li {
+    color: white;
+}
+
+/* footer */
+
+footer {
+    background-color: #1E4356;
+    color: white;
+}
+
+footer .col {
+    text-align: center;
+    background-color: #3f6375;
+    padding: 50px 0px;
+}
+
+footer .row1 {
+    padding: 50px;
+}
+
+footer .col input[type='text'] {
+    width: 655.33px;
+    height: 40px;
+    padding-left: 10px;
+    color: white;
+    background-color: #284E62;
+    border: #48697a 2px solid;
+    transition: 0.5;
+    outline: none;
+    border-radius: 20px;
+}
+
+footer .col input[type='button'] {
+    height: 40px;
+    width: 110px;
+    border: none;
+    border-radius: 20px;
+    position: absolute;
+    padding: 0px 20px;
+    background-color: rgb(26, 143, 143);
+    color: white;
+    left: 1170px;
+}
+
+footer .col-2 a {
+    color: rgb(189, 184, 184);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+footer .col-2 a:hover {
+    color: rgb(87, 87, 189);
+}
+
+footer svg {
+    padding: 10px;
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 5px;
+    transition: 0.3s;
+}
+
+footer svg:hover {
+    border: 1px solid rgb(38, 96, 132);
+}
+
+.errordiv {
+    margin-top: 40px;
+    margin-left: 460px;
+    width: 1000px;
+    background-color: red;
+    padding: 20px;
+    display: none;
+    text-align: left;
+}
+
+.errordiv.active {
+    display: block;
+}
